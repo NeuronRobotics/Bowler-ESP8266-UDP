@@ -103,3 +103,5 @@ void user_init(void)
 
 	system_os_task(recvTask, recvTaskPrio, recvTaskQueue, recvTaskQueueLen);
 }
+
+void user_rf_pre_init(){}
